@@ -10,6 +10,7 @@
 img {
   max-width: 900px;
   max-height: 900px;
+  animation: trasitionEffect 1.5s;
 }
 
 #button {
@@ -29,4 +30,13 @@ img {
   height: 60px;
   margin-right: 20px;
   cursor: pointer;
+}
+
+@keyframes trasitionEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
