@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 #carousel {
   max-width: 900px;
   position: relative;
@@ -8,7 +12,7 @@
 }
 
 img {
-  max-width: 900px;
+  max-width: 100vw;
   max-height: 900px;
   animation: trasitionEffect 1.5s;
 }
@@ -19,6 +23,7 @@ img {
   justify-content: flex-end;
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
 }
 
 #button-next {
@@ -26,9 +31,9 @@ img {
   border-radius: 50%;
   background-color: antiquewhite;
   opacity: 0.8;
-  width: 60px;
-  height: 60px;
-  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
