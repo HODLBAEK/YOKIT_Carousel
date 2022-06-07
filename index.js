@@ -36,7 +36,7 @@ const btnNext = document.getElementById("button-next");
 function slideNext() {
   const chooseSlides = slides[Math.floor(Math.random() * slides.length)];
   imagesClass.innerHTML = `
-  <img src="https://raw.githubusercontent.com/HODLBAEK/YOKIT_Carousel/img/${chooseSlides}.jpg" alt="yokit_img">
+  <img src="img/${chooseSlides}.jpg" alt="yokit_img">
   `;
 }
 
